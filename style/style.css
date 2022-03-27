@@ -1,0 +1,163 @@
+/* CSS Document */
+@charset "utf-8";
+/*----header section-----*/
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Sora', sans-serif;
+}
+body header{
+   background-color:#37aaad;
+   padding: 0;
+   margin: auto;
+   position:relative;
+  
+}
+body header .uk-container .uk-navbar-left .uk-navbar-nav .uk-active .img{
+   width: 80px;
+   height: 80px;
+   margin: 0;
+}
+body header .uk-container .uk-navbar-right .uk-navbar-nav {
+   margin: 0; 
+   font-size: 12px;
+   font-family: 'Sora', sans-serif;
+   color: white;
+}
+body header .uk-container .uk-navbar-right .uk-navbar-nav li a{
+    display: inline-flex;
+    position: relative;
+    color:white;
+    font-family: 'Sora', sans-serif;
+    font-weight: 1px;
+}
+body header .uk-container .uk-navbar-right .uk-navbar-nav li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color:#F88158;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+body header .uk-container .uk-navbar-right .uk-navbar-nav li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+body header .uk-container .uk-navbar-right .uk-navbar-toggle{
+    background-color: #F88158;
+    margin: auto;
+    padding: auto;
+    color: #37aaad;
+}
+/*-----for media qurrey for small screen-----*/
+body .uk-offcanvas .uk-offcanvas-bar .uk-nav li a{
+    color: #F88158;
+    font-size: 15px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 2px;
+}
+/* ----- the end of media qurrey-----*/
+
+#landing-page{
+height: 6cm;
+}
+
+/* features*/
+#features{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+#features .features{
+   text-align: center;
+   font-family: 'Bree Serif', serif;
+   font-size: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: #37aaad;
+}
+#features .uk-card{
+    text-align: center;
+    border-radius: 15px;
+}
+#features .uk-card p{
+    color: #000000;
+    font-weight: bold;
+
+}
+#features .uk-card .uk-button{
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #37aaad;
+    border-color: #37aaad;
+}
+#features .uk-card .uk-button:hover{
+    background-color: #37aaad;
+    color: #ffffff;
+}
+/*---testimonial---*/
+#testimonial{
+    margin: auto;
+    height: auto;
+    width: 100%;
+
+}
+#testimonial .testimonial{
+    color: #37aaad;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    margin: 20px;
+}
+#testimonial .item .text{
+   text-align: center; 
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: bolder;
+   font-family: 'Sora', sans-serif;
+  
+
+}
+#testimonial .name{
+    color: #37aaad;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+/* ------testimonial  close-------*/
+
+/*about- footer*/
+#about{
+    width: 100%;
+    background-color:#37aaad;
+    padding: 70px;
+    font-family: 'Sora', sans-serif;
+    font-style: bold;
+}
+#about .about{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+}
+#about .uk-text-center{
+    color: #ffffff;
+    margin: 10px;
+    padding: auto;
+    font-size: 14px;
+}
+#about .uk-text-center .uk-icon-button{
+    color: #37aaad;
+    margin: 5px;
+    background-color: #ffffff;
+    font-size: 40px;
+}
+   footer{
+        color:#37aaad;
+        text-align: center;
+        margin:auto;
+        font-weight: bold;
+       }
