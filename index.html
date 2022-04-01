@@ -15,137 +15,104 @@
           </head>
  <!--navbar with Uikit-->
  <body>
-    <header>
-      <!-- Main Navbar -->
-       <nav class="uk-container uk-navbar">
-          <div class="uk-navbar-left">
-              <ul class="uk-navbar-nav">
-                  <li class="uk-active">
-                   <img src="photos/new-logo.jpeg" alt="brand-logo" class="img">
-                  </li> 
-              </ul>
-          </div>
-          <div class="uk-navbar-right" > 
-              <ul class="uk-navbar-nav uk-visible@s">
-                <li class="active"><a href="#landing-page">Home</a></li>
-                <li><a href="#features">Services</a></li>
-               <!-- <li><a href="#testimonial">Testimonials</a></li>-->
-                <li><a href="#about">About</a></li>
-                <li><a href="#about">Contact Us</a></li>
-              </ul>
-              <!--toggler section-->
-              <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
-          </div>
-      </nav>
-    </header>
-    <div id="sidenav" uk-offcanvas="mode: reveal" class="uk-offcanvas">
-      <div class="uk-offcanvas-bar">
-          <ul class="uk-nav">
-            <li class="active"><a href="#landing-page">Home</a></li>
-            <li><a href="#features">Services</a></li>
-            <!--<li><a href="#testimonial">Testimonials</a></li>-->
-            <li><a href="#about">About</a></li>
-            <li><a href="#about">Contact Us</a></li>
-          </ul>
-      </div>
-    </div>
+   
   <!--*****************************************End of Header****************************************-->  
 <div class="banner">
   <img src="/photos/new-logo.jpeg" alt="tesimonial-banner">
 </div>
-
-  <!---****************************************landing page*****************************************-->
-  <div class="#landing-page">
-      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: scale" autoplay="true"  uk-slideshow="min-height: 100; max-height: 5">
-          <ul class="uk-slideshow-items">
-             <li>
-              <img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/06/tarot-card-reader-1296x728-header.jpg?w=1155&h=1528" alt="" uk-cover>
-                  <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium"> 
-                  <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2><br>
-                  <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">We Are Exactly Where We Are Meant To Be</p>
-                  <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
-                  </div>
-                  </li>
-                  <li>
-                  <img src="https://qph.fs.quoracdn.net/main-qimg-d2c7afa3d9bf9ec9443ce22c4b976ed9-lq" alt="" uk-cover>
-                  <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium">
-                  <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 60px; "> </h2><br>
-                  <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">Anything Is Possible, Certain Events Are More Probable</p>
-                  <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
-                  </div>
-                  </li>
-                  <li>
-                    <img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/06/tarot-card-reader-1296x728-header.jpg?w=1155&h=1528" alt="" uk-cover>
-                  <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium">
-                   <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2><br>
-                  <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">Live Without Expectation. Go With The Flow And See How Life Unfolds.</p>
-                  <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
-                  </div>
-                  </li>
-                  <li>
-                    <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/2/2021/11/tarot-card-Singapore-900x643.png" alt="" uk-cover>
-                  <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium">
-                    <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2><br>
-                  <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">There Is Only One You In This World Embrace Yourself</p>
-                  <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
-               </div>
-           </li>
-       </ul>
-    </div>
-</div>
-<!--****************************************End Of Carasoul**************************************--> 
 <!--***************************************Features*********************************************-->
-     <div id="features">
-            <div class="features">Services</div>
-              <div class="container-fluid">
-                <div class="uk-child-width-1-1@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
-                   <div class="null">
-                      <div class="uk-card uk-card-default uk-card-body uk-card-hover" style="background-color: #fecd3b;">
-                        <div class="uk-card-media-top">
-                           <img src="photos/tarot.jpg" style="height:8cm" alt=""> </div>
-                             <h3 class="uk-card-title">Tarot Reading</h3>
-                             <p>Let’s connect and find out what’s coming for your future. what will this year be like? Let’s see what the tarot shows us.</p>
-                             <a href="https://www.etsy.com/listing/1041852775/4-question-tarot-reading?click_key=4ce0bdd551f22bdabbad6b19b84c49e559ef4d45%3A1041852775&click_sum=ec8d248b&ref=shop_home_active_4" class="uk-button uk-button-primary">Purchase</a>
-                             </div>
-                         </div>
-                 <div class="null">
-             <div class="uk-card uk-card-default uk-card-body uk-card-hover" style="background-color:#fd7e14;">
-          <div class="uk-card-media-top">
-            <img src="photos/pendulum.jpg" style="height:8cm" alt="">
-          </div>
-                <h3 class="uk-card-title">Pendulum Dowsing</h3>
-                  <p>
-                    Pendulum dowsing is one of the simplest divinatory arts. 
-                    A pendulum is a weighted object on a string that is used to channel energy.</br>
-                    A pendulum instantly receives answers from electromagnetic impulses from the aether.</p>
-                   
-                    <p>Whether you interpret divination tools as a way to access a divine higher power or simply as a way of tapping into your higher or inner self,
-                    dowsing can be amazing way to verify information.
-                    Pendulum dowsing works best when your questions are worded in a way that they can be answered with a yes, no, or undetermined. Be advised,
-                    the future is not set in stone, divination will give the most likely future outcome based on current circumstances.</p>
-                   <p> Timelines change frequently, all future readings from any psychic or intuitive should be taken as a possibility, not a guarantee.
-                    Pendulum dowsing results will be sent via personalized video. I film the entire session start to finish. Live readings are also available.
-                  </p> 
-
-                    <a href="https://www.etsy.com/listing/960298348/pendulum-dowsing-session?click_key=14fa7e9d42b921e59c7f49bb2db187d36343e5c9%3A960298348&click_sum=7cc3758f&ref=shop_home_active_8" class="uk-button uk-button-primary">Purchase</a>
-                  </div>
-               </div>
-            <div class="null">
-        <div class="uk-card uk-card-default uk-card-body  uk-card-hover" style="background-color: #fecd3b;">
-          <div class="uk-card-media-top">
-            <img src="photos/vid.jpg" style="height:8cm" alt=""></div>
-               <h3 class="uk-card-title">Book a Reading</h3>
-               <p>Readings are available through Etsy at this time. To purchase a reading click on the purchase button below.
-                  Reading results are sent via in depth personalized video within 24 hours of finalizing your questions. 
-                  After making a purchase, immediately send your questions via Etsy message or email gingermcl332@gmail.com to speed up your results. Live video readings and/or chats are also available.
-                </p>
-               <a href="https://www.etsy.com/listing/1042123398/60-minute-video-chat?click_key=8cc7db82b6bba1b05d503ed529427f976c018630%3A1042123398&click_sum=b063574a&ref=shop_home_active_7" class="uk-button uk-button-primary">Purchase</a>
+<div id="features">
+  <div class="container-fluid">
+    <div class="uk-child-width-1-1@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+       <div class="null">
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover" style="background-color: #f3cd5d;">
+            <div class="uk-card-media-top">
+               <img src="photos/tarot.jpg" style="height:8cm" alt=""> </div>
+                 <h3 class="uk-card-title">Tarot Reading</h3>
+                 <p>Let’s connect and find out what’s coming for your future. what will this year be like? Let’s see what the tarot shows us.</p>
                  </div>
              </div>
-         </div>
+     <div class="null">
+ <div class="uk-card uk-card-default uk-card-body uk-card-hover" style="background-color:#f79b51;">
+<div class="uk-card-media-top">
+<img src="photos/pendulum.jpg" style="height:8cm" alt="">
+</div>
+    <h3 class="uk-card-title">Pendulum Dowsing</h3>
+      <p>
+        Pendulum dowsing is one of the simplest divinatory arts. 
+        A pendulum is a weighted object on a string that is used to channel energy.</br>
+        A pendulum instantly receives answers from electromagnetic impulses from the aether.</p>
+       
+        <p>Whether you interpret divination tools as a way to access a divine higher power or simply as a way of tapping into your higher or inner self,
+        dowsing can be amazing way to verify information.
+        Pendulum dowsing works best when your questions are worded in a way that they can be answered with a yes, no, or undetermined. Be advised,
+        the future is not set in stone, divination will give the most likely future outcome based on current circumstances.</p>
+       <p> Timelines change frequently, all future readings from any psychic or intuitive should be taken as a possibility, not a guarantee.
+        Pendulum dowsing results will be sent via personalized video. I film the entire session start to finish. Live readings are also available.
+      </p> 
       </div>
-  </div>
+   </div>
+<div class="null">
+<div class="uk-card uk-card-default uk-card-body  uk-card-hover" style="background-color: #f3cd5d;">
+<div class="uk-card-media-top">
+<img src="photos/vid.jpg" style="height:8cm" alt=""></div>
+   <h3 class="uk-card-title">Book a Reading</h3>
+   <p>Readings are available through Etsy at this time. To purchase a reading click on the purchase button below.
+      Reading results are sent via in depth personalized video within 24 hours of finalizing your questions. 
+      After making a purchase, immediately send your questions via Etsy message or email gingermcl332@gmail.com to speed up your results. Live video readings and/or chats are also available.
+    </p>
+   <a href="https://www.etsy.com/listing/1042123398/60-minute-video-chat?click_key=8cc7db82b6bba1b05d503ed529427f976c018630%3A1042123398&click_sum=b063574a&ref=shop_home_active_7" class="uk-button uk-button-primary">Purchase</a>
+     </div>
+ </div>
+</div>
+</div>
+</div>
 <!--****************************************************end of features*************************************-->
+
+
+
+<div class="#landing-page">
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: scale" autoplay="true"  uk-slideshow="min-height: 100; max-height: 5">
+      <ul class="uk-slideshow-items">
+         <li>
+          <img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/06/tarot-card-reader-1296x728-header.jpg?w=1155&h=1528" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium"> 
+              <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2><br>
+              <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">We Are Exactly Where We Are Meant To Be</p>
+              <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
+              </div>
+              </li>
+              <li>
+              <img src="https://qph.fs.quoracdn.net/main-qimg-d2c7afa3d9bf9ec9443ce22c4b976ed9-lq" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium">
+              <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 60px; "> </h2><br>
+              <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">Anything Is Possible, Certain Events Are More Probable</p>
+              <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
+              </div>
+              </li>
+              <li>
+                <img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/06/tarot-card-reader-1296x728-header.jpg?w=1155&h=1528" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium">
+               <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2><br>
+              <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">Live Without Expectation. Go With The Flow And See How Life Unfolds.</p>
+              <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
+              </div>
+              </li>
+              <li>
+                <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/2/2021/11/tarot-card-Singapore-900x643.png" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-bottom uk-width-medium">
+                <h2 class="quote" uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2><br>
+              <p class="uk-margin-remove" style="color: #ffff; font-family: 'Courgette', cursive;">There Is Only One You In This World Embrace Yourself</p>
+              <h2 class="e"uk-icon="quote-right" style="color: #f4c941; font-size: 30px; margin-top: 20px; "> </h2>
+           </div>
+       </li>
+   </ul>
+</div>
+</div>
+
+
+
+
 <!--*****************************************************Testimonials*************************************-->
 <div id="testimonial">
   <div class="testimonial"> Testimonial</div>
@@ -215,16 +182,21 @@
    <div class="about">About Renegade Reading</div>
       <div class="container-fluid">
         <div class="uk-text-center">
-          <p> I am an intuitive empath with 7 years experience doing divination; 
-            I am very open minded towards all issues and understand life throws us difficult situations.</br> Sometimes telling you what the cards want you to know is hard but it's necessary for growth.
-            Other times I can let you know when your blessings are coming and good news.
-            I can talk about hard situations, anything you need to ask. I truly love to help people and if you ask I will light a candle for you❣️</p>
-           <p>I am part of the "Truthseeker" community so you can feel comfortable coming to me about those issues through the channels below.</p> 
+          <p>Renegade Readings is owned and managed by Ginger McLaughlin.
+             Ginger is an intuitive empath, accredited spiritual life coach and shamanic healer, with 8 years of experience doing divination;
+             specifically pendulum dowsing and tarot reading.
+             Divination is a extremely helpful tool that helps you find much needed insights about yourself and your reality.
+            <br/> Patrons receive 30% off divination services and one free tarot reading per month.
+            <a href="https://wpatreonww..com/gingermcl" style="color: black;"> Patron</a>
+          </p> 
+
             <a href="https://twitter.com/gingermcl332?t=8fXB70fSwdAjDc9gxkW2TA&s=09" class="uk-icon-button" uk-icon="twitter"></a>
             <a href="https://www.facebook.com/ginger.mclaughlin.1" class="uk-icon-button" uk-icon="facebook"></a>
             <a href="https://instagram.com/gingermcl332?utm_medium=copy_link" class="uk-icon-button" uk-icon="instagram"></a>
             <a href="https://www.etsy.com/shop/RenegadeReadings?ref=simple-shop-header-name&listing_id=1041852775" class="uk-icon-button" uk-icon="etsy"></a>
             <a href="https://www.youtube.com/channel/UCNwz4XJdkb447KOWW5n9r4A" class="uk-icon-button" uk-icon="youtube"></a>
+            <a href="https://www.tiktok.com/@gingermcl332" class="uk-icon-button" uk-icon="tiktok"></a>
+            <a href="mailto:gingermcl332@gmail.com" class="uk-icon-button" uk-icon="mail"></a>
        </div>
      </div>
    </div>
