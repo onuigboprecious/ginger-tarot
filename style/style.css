@@ -10,12 +10,12 @@ body header{
    background-color:#689de9;
    padding: 0;
    margin: auto;
-   position:relative;
-  
+   position:sticky;
 }
+
 body header .uk-container .uk-navbar-left .uk-navbar-nav .uk-active .img{
-   width: 150px;
-   height: 130px;
+   width: 80px;
+   height: 60px;
    margin: 0;
 }
 body header .uk-container .uk-navbar-right .uk-navbar-nav {
@@ -61,7 +61,11 @@ body .uk-offcanvas .uk-offcanvas-bar .uk-nav li a{
     font-weight: 2px;
 }
 /* ----- the end of media qurrey-----*/
-
+.banner img{
+    width: 100%;
+    height: 20%;
+    opacity: 2;
+}
 #landing-page{
 height:auto;
 }
@@ -86,7 +90,9 @@ height:auto;
 #features .uk-card p{
     color: #000000;
     font-weight: bold;
-
+}
+ #features #more {
+    display: none;
 }
 #features .uk-card .uk-button{
     border-radius: 10px;
@@ -103,6 +109,7 @@ height:auto;
     margin: auto;
     height: auto;
     width: 100%;
+    display: none;
 
 }
 #testimonial .testimonial{
@@ -111,6 +118,7 @@ height:auto;
     font-family: 'Bree Serif', serif;
     text-align: center;
     margin: 20px;
+    display: none;
 }
 
 
@@ -123,6 +131,7 @@ height:auto;
     border-width: 10px;
     border-radius: 15px;
     padding: 15px;
+    display: none;
 }
 #testimonial .item .text{
    text-align: center; 
@@ -131,9 +140,11 @@ height:auto;
    font-weight: bold;
    margin: 15px;
    font-family: 'Sora', sans-serif; 
+   display: none;
 }
 #testimonial .uk-slider-items .testimonial-layout{
     background-color: #000000;
+    display: none;
 }
 
 /* ------testimonial  close-------*/
@@ -173,3 +184,9 @@ height:auto;
         text-align: center;
         margin:auto;
        }
+.top a{
+    color: #689de9;
+    background-color: #f4c941;
+    float: right;
+    position: sticky;
+}
