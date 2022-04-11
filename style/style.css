@@ -108,8 +108,6 @@ height:auto;
     margin: auto;
     height: auto;
     width: 100%;
-   
-
 }
 #testimonial .testimonial{
     color: #689de9;
@@ -119,19 +117,6 @@ height:auto;
     margin: 20px;
     display: none;
 }
-
-
-#testimonial .item{
-    border-style: solid;
-    border-top-color: #f4c941;
-    border-right-color: #f4c941;
-    border-bottom-color: #689de9;
-    border-left-color: #689de9;
-    border-width: 10px;
-    border-radius: 15px;
-    padding: 15px;
-  
-}
 #testimonial .item .text{
    text-align: center; 
    color: #ffffff;
@@ -140,14 +125,8 @@ height:auto;
    margin: 15px;
    font-family: 'Sora', sans-serif; 
    display: none;
-
 }
-#testimonial .uk-slider-items .testimonial-layout{
-    background-color: #000000;
-}
-
 /* ------testimonial  close-------*/
-
 /*about- footer*/
 #about{
     width: 100%;
